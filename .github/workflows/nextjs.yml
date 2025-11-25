@@ -32,7 +32,13 @@ jobs:
     
     - name: Build project
       run: npm run build
-
+      
+  deploy-production:
+    needs: build
+    runs-on: ubuntu-latest
+    environment: production
+    if: github.ref == 'refs/heads/master'
+    steps:
     - name: Deploy to cPanel via FTP
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
