@@ -32,6 +32,13 @@ jobs:
     
     - name: Build project
       run: npm run build
+
+    - name: Subir artefacto de producción
+      uses: actions/upload-artifact@v4
+      with:
+        name: nextjs-static-site # Un nombre para tu artefacto
+        path: out/               # La carpeta que quieres guardar
+        retention-days: 1 
       
   deploy-production:
     needs: build
@@ -39,11 +46,17 @@ jobs:
     environment: production
     if: github.ref == 'refs/heads/master'
     steps:
+    - name: Descargar artefacto del sitio estático
+      uses: actions/download-artifact@v4
+      with:
+        name: nextjs-static-site # Usa el mismo nombre del artefacto subido
+        path: ./out/
+        
     - name: Deploy to cPanel via FTP
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: out/
+        local-file-path: "./out/" 
         server-dir: /
