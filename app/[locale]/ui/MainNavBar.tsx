@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import Link from "next/link";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 
 interface NavLinkProps {
   href: string;
@@ -23,11 +23,12 @@ const NavLink = ({ href, children }: NavLinkProps) => (
 
 export default function MainNavBar() {
   const t = useTranslations("HeaderComponet");
+  const locale = useLocale();
   // Define los enlaces del menú principal
   const navItems: NavItem[] = [
-    { name: t("navBarMenu.start"), href: "/inicio" },
-    { name: t("navBarMenu.audits"), href: "/auditorias" },
-    { name: t("navBarMenu.contacts"), href: "/contacto" },
+    { name: t("navBarMenu.start"), href: `/${locale}/inicio` },
+    { name: t("navBarMenu.audits"), href: `/${locale}/auditorias` },
+    { name: t("navBarMenu.contacts"), href: `/${locale}/contacto` },
   ];
 
   return (

@@ -8,7 +8,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid"; // Necesitará
 import { useState, ReactNode } from "react";
 import LangSocial from "../ui/LangSocial";
 import MainNavBar from "../ui/MainNavBar";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 
 // Interfaces
 interface NavLinkProps {
@@ -35,6 +35,7 @@ const NavLink = ({ href, children }: NavLinkProps) => (
 export default function Header() {
   const t = useTranslations("HeaderComponet");
   const pathname = usePathname();
+  const locale = useLocale();
 
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
@@ -42,25 +43,25 @@ export default function Header() {
   const subNavItems: NavItem[] = [
     {
       name: t("navBarSubMenu.areasPracticas"),
-      href: "/areas-practicas",
+      href: `/${locale}/areas-practicas`,
       id: "1",
     },
     { name: "|", href: "#", id: "2" },
     {
       name: t("navBarSubMenu.seminariosCapacitacion"),
-      href: "/seminarios-capacitacion",
+      href: `/${locale}/seminarios-capacitacion`,
       id: "3",
     },
     { name: "|", href: "#", id: "4" },
     {
       name: t("navBarSubMenu.corresponsales"),
-      href: "/corresponsales",
+      href: `/${locale}/corresponsales`,
       id: "5",
     },
     { name: "|", href: "#", id: "6" },
-    { name: t("navBarSubMenu.clientes"), href: "/clientes", id: "7" },
+    { name: t("navBarSubMenu.clientes"), href: `/${locale}/clientes`, id: "7" },
     { name: "|", href: "#", id: "8" },
-    { name: t("navBarSubMenu.equipo"), href: "/equipo", id: "9" },
+    { name: t("navBarSubMenu.equipo"), href: `/${locale}/equipo`, id: "9" },
   ];
 
   // Dentro del componente Header (antes del return)

@@ -2,13 +2,24 @@ import Footer from "../layouts/Footer";
 import BodyLayout from "../layouts/BodyLayout";
 import ContentAreasPracticas from "./components/ContentAreasPracticas";
 import Header from "../layouts/Header";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 
-const AreasDePracticaPage = () => {
+const AreasDePracticaPage = async ({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) => {
+  const { locale } = await params;
+
+  // Enable static rendering
+  setRequestLocale(locale);
+
+  const t = await getTranslations("PracticeAreasPage");
   return (
     <>
       <Header />
       <BodyLayout
-        title="ÁREAS DE PRÁCTICA"
+        title={t("title")}
         bannerImage="/images/banner_areas.jpg"
         mainContent={<ContentAreasPracticas />}
       />
