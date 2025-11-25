@@ -33,7 +33,7 @@ const NavLink = ({ href, children }: NavLinkProps) => (
 );
 
 export default function Header() {
-  const t = useTranslations("HeaderComponet");
+  const t = useTranslations("LocaleSwitcher");
   const pathname = usePathname();
   const locale = useLocale();
 
@@ -42,26 +42,22 @@ export default function Header() {
   // Define los enlaces del submenú gris/azul
   const subNavItems: NavItem[] = [
     {
-      name: t("navBarSubMenu.areasPracticas"),
-      href: `/${locale}/areas-practicas`,
+      name: "ESPAÑOL",
+      href: `/es/inicio`,
       id: "1",
     },
     { name: "|", href: "#", id: "2" },
     {
-      name: t("navBarSubMenu.seminariosCapacitacion"),
-      href: `/${locale}/seminarios-capacitacion`,
-      id: "3",
+      name: "ENGLISH",
+      href: `/en/inicio`,
+      id: "2",
     },
     { name: "|", href: "#", id: "4" },
     {
-      name: t("navBarSubMenu.corresponsales"),
-      href: `/${locale}/corresponsales`,
-      id: "5",
+      name: "PORTUGUÊS",
+      href: `/pt/inicio`,
+      id: "3",
     },
-    { name: "|", href: "#", id: "6" },
-    { name: t("navBarSubMenu.clientes"), href: `/${locale}/clientes`, id: "7" },
-    { name: "|", href: "#", id: "8" },
-    { name: t("navBarSubMenu.equipo"), href: `/${locale}/equipo`, id: "9" },
   ];
 
   // Dentro del componente Header (antes del return)
@@ -73,31 +69,25 @@ export default function Header() {
   return (
     <header className="w-full">
       {/* Barra Superior - Logo, Idiomas y Redes */}
-      <div className="grid grid-cols-1 sm:grid-cols-2  ">
-        <Link
-          className="flex justify-center sm:justify-start space-x-2  min-h-[60px] "
-          href={"/" + locale}
-        >
+      <div className="grid grid-cols-1 sm:grid-cols-1  ">
+        <div className="flex justify-center sm:justify-center space-x-2  min-h-[60px] ">
           <Image
             src="/images/logo_hfc.png"
-            height={200}
-            width={200}
+            height={300}
+            width={300}
             alt=""
-            style={{ position: "relative", top: -10 }}
+            style={{ position: "relative", top: -10, marginTop: 50 }}
           />
-        </Link>
-        <div className="flex flex-col justify-center sm:justify-center items-center sm:items-end  ">
-          <LangSocial />
-          <MainNavBar />
         </div>
       </div>
 
       {/* Submenú Gris/Azul - Escritorio */}
       <div
-        className="hidden lg:block bg-[#1C2C39] text-white shadow-lg mt-8"
+        className="hidden lg:block bg-[#1C2C39] text-white shadow-lg mt-8 w-[50%]"
         style={{
           borderBottom: "5px solid #E3BE58",
           borderImage: "linear-gradient(90deg, #E3BE58, #FFE8AA, #E3BE58) 1",
+          margin: "40px auto 20px ",
         }}
       >
         <div className="container mx-auto px-4 flex justify-between items-center h-12">
