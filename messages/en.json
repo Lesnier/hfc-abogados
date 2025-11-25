@@ -1,0 +1,132 @@
+{
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, es {Spanish} en {English} pt {Portuguese} other {Unknown}}"
+  },
+  "HomePage": {
+    "title": "About Us",
+    "welcomeMessage": "HFC Attorneys is made up of a team of professionals dedicated to providing legal advice to companies, committed to creating business opportunities for their clients while managing risks to foster growth. We actively engage in both alternative dispute resolution and high-complexity litigation in various courts at the national and international levels, distinguishing ourselves over time by our responsiveness, ethics and responsibility. The path our firm has taken reflects our presence in the market, with clients that include multinational and Argentine companies with subsidiaries abroad, which expands the scope of our services across the globalized world. We also work with organizations to establish compliance frameworks and implement policies, supporting business control and stakeholder accountability in the area of corporate social responsibility."
+  },
+  "AuditPage": {
+    "title": "Audits",
+    "accessTheSystem": "Access the System",
+    "accesButton": "Access"
+  },
+  "ContactPage": {
+    "title": "Contact",
+    "phone": "Phone",
+    "address": "Autonomous City of Buenos Aires (C1047) - Argentina"
+  },
+  "PracticeAreasPage": {
+    "title": "Practice Areas",
+    "areasList": {
+      "derechoLaboral": {
+        "title": "Labor Law",
+        "description": "Advice on labor relations, contracts, collective negotiations and labor litigation."
+      },
+      "concursosYQuiebras": {
+        "title": "Insolvency and Bankruptcy",
+        "description": "We collaborate with our clients in building dynamic labor structures, protecting their human resources assets and advising them on individual and collective matters. Our team has extensive experience in union negotiations, acting as facilitators of dialogue between the parties and state agencies."
+      },
+      "reestructuracionesDeDeudas": {
+        "title": "Debt Restructurings",
+        "description": "We have extensive experience in structuring and planning debt restructuring systems, advising our clients on sustainable scenarios over time."
+      },
+      "marcasPatentes": {
+        "title": "Trademarks & Patents",
+        "description": "We actively work on the registration, custody and protection of trade names that represent our clients' activities in various markets. We participate in anti-piracy campaigns to safeguard the economic interests that trademarks or invention patents represent for their businesses."
+      },
+      "derechoAdministrativo": {
+        "title": "Administrative Law",
+        "description": "We advise and represent our clients before national, provincial and municipal state agencies in various areas where they conduct business, shaping strategies that allow the implementation of policies related to consumer protection, competition and import/export regulations to achieve the intended objectives."
+      },
+      "agronegocios": {
+        "title": "Agribusiness",
+        "description": "We promote the development of businesses aimed at land use, assisting our clients in the implementation of new technologies, organic crops or advising them on biofuels for better utilization and optimization of resources."
+      },
+      "comercioInternacional": {
+        "title": "International Trade",
+        "description": "We have extensive experience and a broad network of correspondents worldwide, allowing us to assist our clients in developing business units for the trade of goods and/or provision of services internationally, structuring their operations dynamically to provide comprehensive legal protection across multiple jurisdictions."
+      },
+      "litigios": {
+        "title": "Litigation",
+        "description": "We represent our clients in the courts related to their commercial or labor activities, protecting their interests by developing preventive strategies or during disputes. Our litigation team's structure enables handling cases from highly complex matters to large volumes of lawsuits."
+      },
+      "familyOffices": {
+        "title": "Family Offices",
+        "description": "We collaborate with these investment and family wealth management platforms, planning succession strategies to promote the continuity of their businesses over time and facilitate transfers between generations."
+      },
+      "realState": {
+        "title": "Real Estate",
+        "description": "The dynamics of real estate businesses require legal tools that allow achieving results, whether from analysis of investment projects where land is the main asset, or by assisting developers to implement commercialization vehicles."
+      },
+      "auditoriasDeComplianceYRse": {
+        "title": "Compliance and CSR Audits",
+        "description": "We conduct reviews of documents and internal processes to assess their compliance with laws, enabling our clients to identify potential contingencies and prevent fraud. This facilitates everything from process quality certifications to measuring voluntary contributions to economic, social and environmental improvement and quantifying them."
+      },
+      "derechoDelEntretenimientoYDelDeporte": {
+        "title": "Entertainment and Sports Law",
+        "description": "We advise, guide and represent companies and/or individuals in the entertainment, cultural and sports industries to safeguard their rights. We have extensive experience designing contractual structures related to the sporting sector locally and internationally. Our expertise in integrating legal relationships within advertising, film production and sports-related works allows us to provide comprehensive advice aimed at achieving structures that protect intangible assets, including those delivered via the Internet."
+      }
+    }
+  },
+  "SeminarTrainingPage": {
+    "title": "Seminars and Training",
+    "description": "We design and deliver in-company training programs on legal matters to train our clients' staff in resolving everyday conflicts, helping to minimize contingencies that directly impact business profitability. We also participate in seminars organized by business chambers and public institutions, providing legal solutions to entrepreneurs to foster the development and growth of their corporate activity."
+  },
+  "CorrespondentsPage": {
+    "title": "Correspondents",
+    "description": "We have developed the necessary structure to provide our services throughout the territory of the Argentine Republic. To this end, we designed a joint working system with a wide network of correspondents across the country, in which our firm performs management control while maintaining technical responsibility and strategic alliances and cooperation agreements. Among others, our network includes: Estudio Gómez Sanchís y Asociados (Province of Mendoza), Estudio Formaro, Huarte, González, Fazzolari & Martín (Provinces of Neuquén and Río Negro), Estudio Garrote (Provinces of Santa Fe and Entre Ríos), Estudio Sánchez Ejarque Abogados (Provinces of San Juan and San Luis), Estudio Courel & Asociados (Province of Tucumán), Estudio Ferreyra de las Casas Abogados (Provinces of Chubut, Santa Cruz and Tierra del Fuego). Additionally, Amato & Castro | Abogados is associated with the Italian firm Spaggiari, Molina, Zublena & Partners, present in Modena, Rome and Messina, and is our link in China through the prestigious Konosko Investment Consulting & Services Co. Ltd. based in Shanghai. This alliance allows us to offer top-level services to our national and international clients, adequately supporting the development of expansion projects into the Chinese market."
+  },
+  "ClientsPage": {
+    "title": "Clients"
+  },
+  "TeamPage": {
+    "title": "Team",
+    "temaMemberList": {
+      "hernan": {
+        "name": "Hernán Facundo Castro",
+        "email": "hernan.castro@ayc-abogados.com.ar",
+        "position": "Partner",
+        "description": "Lawyer graduated from the University of Morón (1999). Postgraduate in Corporate Legal Advice at the Argentina University of Enterprise (2001). Postgraduate in General Business Development at the Pontifical Catholic University of Argentina (2004). His practice is focused on advising companies, particularly on corporate matters, intellectual property and real estate. He has participated in delivering training seminars at various companies and institutions focused on Commercial Law, Consumer Protection and Trademarks and Patents. Authorized to practice in the jurisdictions of the Province of Buenos Aires and the Autonomous City of Buenos Aires."
+      },
+      "pedro": {
+        "name": "Pedro Fransisco Pistran",
+        "email": "info@hfcabogados.ar",
+        "position": "Partner",
+        "description": "We design strategies to protect our clients' assets, defending their interests in insolvency situations."
+      },
+      "ramiro": {
+        "name": "Ramiro Galarza",
+        "email": "info@hfcabogados.ar",
+        "position": "Partner",
+        "description": "We have extensive experience in structuring and planning debt restructuring systems, advising our clients on sustainable scenarios over time."
+      },
+      "josefina": {
+        "name": "Josefina Mattera",
+        "email": "info@hfcabogados.ar",
+        "position": "Partner",
+        "description": "We have extensive experience in structuring and planning debt restructuring systems, advising our clients on sustainable scenarios over time."
+      }
+    }
+  },
+  "HeaderComponet": {
+    "navBarMenu": {
+      "start": "Home",
+      "audits": "Audits",
+      "contacts": "Contact"
+    },
+    "navBarSubMenu": {
+      "areasPracticas": "Practice Areas",
+      "seminariosCapacitacion": "Seminars and Training",
+      "corresponsales": "Correspondents",
+      "clientes": "Clients",
+      "equipo": "Team"
+    }
+  },
+  "FooterComponet": {
+    "line1": "Lavalle 397 4to Piso. Tel. (5411) 5272 0540. C1047",
+    "line2": "Buenos Aires - Argentina",
+    "line3": "COPYRIGHT 2005 - 2025 - WWW.HFC-AYCABOGADOS.COM.AR"
+  }
+}

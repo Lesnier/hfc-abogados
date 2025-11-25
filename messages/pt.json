@@ -1,0 +1,133 @@
+{
+  "LocaleSwitcher": {
+    "label": "Alterar Idioma",
+    "locale": "{locale, select, es {Espanhol} en {Inglês} pt {Português} other {Um estranho}}"
+  },
+  "HomePage": {
+    "title": "Sobre Nós",
+    "welcomeMessage": "HFC Attorneys é composto por uma equipe de profissionais dedicada a prestar assessoria jurídica a empresas, comprometida em criar oportunidades de negócio para seus clientes enquanto gere riscos para promover o crescimento. Atuamos ativamente tanto na resolução alternativa de conflitos quanto em litígios de alta complexidade em diversos tribunais, nos âmbitos nacional e internacional, destacando-nos ao longo do tempo pela nossa capacidade de resposta, ética e responsabilidade. O percurso do nosso escritório reflete a nossa presença no mercado, com clientes que incluem empresas multinacionais e argentinas com filiais no exterior, o que amplia o alcance dos nossos serviços no mundo globalizado. Também trabalhamos com organizações para estabelecer estruturas de compliance e implementar políticas, apoiando o controlo empresarial e a responsabilização das partes interessadas na área da responsabilidade social corporativa."
+  },
+
+  "AuditPage": {
+    "title": "Auditorias",
+    "accessTheSystem": "Acesso ao Sistema",
+    "accesButton": "Aceder"
+  },
+  "ContactPage": {
+    "title": "Contacto",
+    "phone": "Telefone",
+    "address": "Cidade Autónoma de Buenos Aires (C1001AAO) - Argentina"
+  },
+  "PracticeAreasPage": {
+    "title": "Áreas de Prática",
+    "areasList": {
+      "derechoLaboral": {
+        "title": "Direito Laboral",
+        "description": "Assessoria em relações laborais, contratos, negociações coletivas e litígios laborais."
+      },
+      "concursosYQuiebras": {
+        "title": "Concursos e Falências",
+        "description": "Colaboramos com os nossos clientes na construção de estruturas laborais dinâmicas, protegendo os seus ativos de Recursos Humanos e assessorando-os em matéria individual e coletiva. A nossa equipe possui ampla experiência em negociação sindical, atuando como facilitadora do diálogo entre as partes e organismos do Estado."
+      },
+      "reestructuracionesDeDeudas": {
+        "title": "Reestruturações de Dívidas",
+        "description": "Contamos com vasta experiência na elaboração e planeamento de sistemas de desendividamento, assessorando os nossos clientes sobre cenários sustentáveis ao longo do tempo."
+      },
+      "marcasPatentes": {
+        "title": "Marcas e Patentes",
+        "description": "Trabalhamos ativamente no registo, guarda e proteção de denominações que representam a atividade dos nossos clientes em diversos mercados. Participamos em campanhas antipirataria em defesa dos interesses económicos que marcas ou patentes de invenção representam para os seus negócios."
+      },
+      "derechoAdministrativo": {
+        "title": "Direito Administrativo",
+        "description": "Assessoramos e representamos os nossos clientes perante organismos do Estado nacional, provincial e municipal em diversos âmbitos onde desenvolvem os seus negócios, estruturando estratégias que permitem implementar políticas relativas às normas que regulam o direito dos consumidores, a concorrência e importações/exportações, obtendo resultados orientados aos objetivos propostos."
+      },
+      "agronegocios": {
+        "title": "Agronegócios",
+        "description": "Propiciamos o desenvolvimento de negócios cujo objetivo é o aproveitamento do solo, assistindo os nossos clientes na implementação de novas tecnologias, cultivos orgânicos e assessorando-os em matéria de biocombustíveis para o melhor aproveitamento e otimização de recursos."
+      },
+      "comercioInternacional": {
+        "title": "Comércio Internacional",
+        "description": "Possuímos ampla experiência e uma extensa rede de correspondentes em todo o mundo que nos permite assistir os nossos clientes no desenvolvimento de unidades de negócio para o comércio de mercadorias e/ou prestação de serviços a nível internacional, estruturando a sua operação de forma dinâmica para permitir uma proteção legal integral em diversas jurisdições."
+      },
+      "litigios": {
+        "title": "Litígios",
+        "description": "Representamos os nossos clientes nos tribunais relacionados com a sua atividade comercial ou laboral, protegendo os seus interesses e elaborando estratégias preventivas ou de atuação durante o conflito. A estrutura da equipa de litígios permite tratar desde casos altamente complexos até grandes volumes de processos."
+      },
+      "familyOffices": {
+        "title": "Family Offices",
+        "description": "Colaboramos com estas plataformas de investimento e gestão de patrimónios familiares, planeando estratégias de sucessão para facilitar a continuidade dos seus negócios ao longo do tempo e a transferência entre diferentes gerações."
+      },
+      "realState": {
+        "title": "Imobiliário",
+        "description": "A dinâmica dos negócios imobiliários requer a utilização de ferramentas legais que permitam a obtenção de resultados, quer na análise de projetos de investimento cujo principal ativo é a terra, quer na assistência a promotores imobiliários para implementar veículos de comercialização."
+      },
+      "auditoriasDeComplianceYRse": {
+        "title": "Auditorias de Compliance e RSE",
+        "description": "Realizamos estudos de documentos e processos internos quanto à sua conformidade com a legislação, permitindo aos nossos clientes conhecer previamente possíveis contingências e evitar fraudes, o que possibilita desde certificações de qualidade de processos até a medição da contribuição voluntária ativa para a melhoria económica, social e ambiental, permitindo a sua quantificação."
+      },
+      "derechoDelEntretenimientoYDelDeporte": {
+        "title": "Direito do Entretenimento e do Desporto",
+        "description": "Assessoramos, orientamos e representamos empresas e/ou pessoas físicas nas indústrias do entretenimento, cultura e desporto, em defesa dos seus direitos. Contamos com ampla experiência no desenho de estruturas contratuais relacionadas com o âmbito desportivo a nível local e internacional. O nosso conhecimento na integração das relações jurídicas no âmbito da publicidade, produção e realização de obras cinematográficas e nas atividades ligadas ao desporto permite-nos oferecer uma assessoria integral para a proteção de bens intangíveis, inclusive aqueles realizados através da Internet."
+      }
+    }
+  },
+  "SeminarTrainingPage": {
+    "title": "Seminários e Formação",
+    "description": "Desenhamos e ministramos programas de formação in-company sobre assuntos legais, com o objetivo de instruir o pessoal dos nossos clientes na resolução de conflitos quotidianos, ajudando a minimizar contingências que impactam diretamente na rentabilidade do negócio. Também participamos em seminários organizados por câmaras empresariais e instituições públicas, oferecendo soluções jurídicas a empreendedores que promovam o desenvolvimento e crescimento da sua atividade corporativa."
+  },
+  "CorrespondentsPage": {
+    "title": "Corresponsais",
+    "description": "Desenvolvemos a estrutura necessária para prestar os nossos serviços em todo o território da República Argentina. Para tal concebemos um sistema de trabalho conjunto com uma ampla rede de correspondentes no interior do país, no qual o nosso escritório realiza o controlo de gestão, mantendo a responsabilidade técnica e com os quais mantemos alianças estratégicas e acordos de cooperação. Entre outros, o nosso networking é composto por: Estudio Gómez Sanchís y Asociados (Prov. de Mendoza), Estudio Formaro, Huarte, González, Fazzolari & Martín (Prov. de Neuquén e Río Negro), Estudio Garrote (Prov. de Santa Fe e Entre Ríos), Estudio Sánchez Ejarque Abogados (Prov. de San Juan e San Luis), Estudio Courel & Asociados (Prov. de Tucumán), Estudio Ferreyra de las Casas Abogados (Prov. de Chubut, Santa Cruz e Tierra del Fuego). Além disso, Amato & Castro | Abogados está associado ao escritório italiano Spaggiari, Molina, Zublena & Partners, presente em Módena, Roma e Messina, sendo nosso nexo na China a prestigiada sociedade Konosko Investment Consulting & Services Co. Ltd., com sede em Shanghai. Esta aliança permite-nos oferecer aos nossos clientes nacionais e estrangeiros serviços de primeiro nível, apoiando adequadamente o desenvolvimento de projetos de expansão para o mercado chinês."
+  },
+  "ClientsPage": {
+    "title": "Clientes"
+  },
+  "TeamPage": {
+    "title": "Equipe",
+    "temaMemberList": {
+      "hernan": {
+        "name": "Hernán Facundo Castro",
+        "email": "hernan.castro@ayc-abogados.com.ar",
+        "position": "Sócio",
+        "description": "Advogado graduado na Universidad de Morón (1999). Pós‑graduação em Assessoria Jurídica de Empresas na Universidad Argentina de la Empresa (2001). Pós‑graduação em Desenvolvimento Geral de Negócios na Pontifícia Universidad Católica Argentina (2004). A sua prática está focada no aconselhamento a empresas, particularmente em matérias societárias, propriedade intelectual e Real Estate. Participou na realização de seminários de formação em diversas empresas e instituições orientadas ao Direito Comercial, Defesa do Consumidor e Marcas e Patentes. Habilitado para atuar nas jurisdições da Província de Buenos Aires e da Cidade Autónoma de Buenos Aires."
+      },
+      "pedro": {
+        "name": "Pedro Fransisco Pistran",
+        "email": "info@hfcabogados.ar",
+        "position": "Sócio",
+        "description": "Desenhamos estratégias de proteção dos ativos dos nossos clientes, defendendo os seus interesses perante estados de insolvência."
+      },
+      "ramiro": {
+        "name": "Ramiro Galarza",
+        "email": "info@hfcabogados.ar",
+        "position": "Sócio",
+        "description": "Contamos com vasta experiência na elaboração e planeamento de sistemas de desendividamento, assessorando os nossos clientes sobre cenários sustentáveis ao longo do tempo."
+      },
+      "josefina": {
+        "name": "Josefina Mattera",
+        "email": "info@hfcabogados.ar",
+        "position": "Sócio",
+        "description": "Contamos com vasta experiência na elaboração e planeamento de sistemas de desendividamento, assessorando os nossos clientes sobre cenários sustentáveis ao longo do tempo."
+      }
+    }
+  },
+  "HeaderComponet": {
+    "navBarMenu": {
+      "start": "Início",
+      "audits": "Auditorias",
+      "contacts": "Contato"
+    },
+    "navBarSubMenu": {
+      "areasPracticas": "Áreas de Prática",
+      "seminariosCapacitacion": "Seminários e Formação",
+      "corresponsales": "Corresponsais",
+      "clientes": "Clientes",
+      "equipo": "Equipe"
+    }
+  },
+  "FooterComponet": {
+    "line1": "Lavalle 397 4to Piso. Tel. (5411) 5272 0540. C1047",
+    "line2": "Buenos Aires - Argentina",
+    "line3": "COPYRIGHT 2005 - 2025 - WWW.HFC-AYCABOGADOS.COM.AR"
+  }
+}
