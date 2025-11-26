@@ -77,7 +77,7 @@
   },
   "CorrespondentsPage": {
     "title": "Corresponsais",
-    "description": "Desenvolvemos a estrutura necessária para prestar os nossos serviços em todo o território da República Argentina. Para tal concebemos um sistema de trabalho conjunto com uma ampla rede de correspondentes no interior do país, no qual o nosso escritório realiza o controlo de gestão, mantendo a responsabilidade técnica e com os quais mantemos alianças estratégicas e acordos de cooperação. Entre outros, o nosso networking é composto por: Estudio Gómez Sanchís y Asociados (Prov. de Mendoza), Estudio Formaro, Huarte, González, Fazzolari & Martín (Prov. de Neuquén e Río Negro), Estudio Garrote (Prov. de Santa Fe e Entre Ríos), Estudio Sánchez Ejarque Abogados (Prov. de San Juan e San Luis), Estudio Courel & Asociados (Prov. de Tucumán), Estudio Ferreyra de las Casas Abogados (Prov. de Chubut, Santa Cruz e Tierra del Fuego). Além disso, Amato & Castro | Abogados está associado ao escritório italiano Spaggiari, Molina, Zublena & Partners, presente em Módena, Roma e Messina, sendo nosso nexo na China a prestigiada sociedade Konosko Investment Consulting & Services Co. Ltd., com sede em Shanghai. Esta aliança permite-nos oferecer aos nossos clientes nacionais e estrangeiros serviços de primeiro nível, apoiando adequadamente o desenvolvimento de projetos de expansão para o mercado chinês."
+    "description": "Desenvolvemos a estrutura necessária para prestar os nossos serviços em todo o território da República Argentina. Para tal concebemos um sistema de trabalho conjunto com uma ampla rede de correspondentes no interior do país, no qual o nosso escritório realiza o controlo de gestão, mantendo a responsabilidade técnica e com os quais mantemos alianças estratégicas e acordos de cooperação. Entre outros, o nosso networking é composto por: Estudio Gómez Sanchís y Asociados (Prov. de Mendoza), Estudio Formaro, Huarte, González, Fazzolari & Martín (Prov. de Neuquén e Río Negro), Estudio Garrote (Prov. de Santa Fe e Entre Ríos), Estudio Sánchez Ejarque Abogados (Prov. de San Juan e San Luis), Estudio Courel & Asociados (Prov. de Tucumán), Estudio Ferreyra de las Casas Abogados (Prov. de Chubut, Santa Cruz e Tierra del Fuego). Além disso, HFC Abogados está associado ao escritório italiano Spaggiari, Molina, Zublena & Partners, presente em Módena, Roma e Messina, sendo nosso nexo na China a prestigiada sociedade Konosko Investment Consulting & Services Co. Ltd., com sede em Shanghai. Esta aliança permite-nos oferecer aos nossos clientes nacionais e estrangeiros serviços de primeiro nível, apoiando adequadamente o desenvolvimento de projetos de expansão para o mercado chinês."
   },
   "ClientsPage": {
     "title": "Clientes"
@@ -87,26 +87,26 @@
     "temaMemberList": {
       "hernan": {
         "name": "Hernán Facundo Castro",
-        "email": "hernan.castro@ayc-abogados.com.ar",
+        "email": "hernan.castro@hfcabogados.ar",
         "position": "Sócio",
         "description": "Advogado graduado na Universidad de Morón (1999). Pós‑graduação em Assessoria Jurídica de Empresas na Universidad Argentina de la Empresa (2001). Pós‑graduação em Desenvolvimento Geral de Negócios na Pontifícia Universidad Católica Argentina (2004). A sua prática está focada no aconselhamento a empresas, particularmente em matérias societárias, propriedade intelectual e Real Estate. Participou na realização de seminários de formação em diversas empresas e instituições orientadas ao Direito Comercial, Defesa do Consumidor e Marcas e Patentes. Habilitado para atuar nas jurisdições da Província de Buenos Aires e da Cidade Autónoma de Buenos Aires."
       },
       "pedro": {
         "name": "Pedro Fransisco Pistran",
         "email": "info@hfcabogados.ar",
-        "position": "Sócio",
+        "position": "Associado",
         "description": "Desenhamos estratégias de proteção dos ativos dos nossos clientes, defendendo os seus interesses perante estados de insolvência."
       },
       "ramiro": {
         "name": "Ramiro Galarza",
         "email": "info@hfcabogados.ar",
-        "position": "Sócio",
+        "position": "Associado",
         "description": "Contamos com vasta experiência na elaboração e planeamento de sistemas de desendividamento, assessorando os nossos clientes sobre cenários sustentáveis ao longo do tempo."
       },
       "josefina": {
         "name": "Josefina Mattera",
         "email": "info@hfcabogados.ar",
-        "position": "Sócio",
+        "position": "Associado",
         "description": "Contamos com vasta experiência na elaboração e planeamento de sistemas de desendividamento, assessorando os nossos clientes sobre cenários sustentáveis ao longo do tempo."
       }
     }
@@ -128,6 +128,6 @@
   "FooterComponet": {
     "line1": "Lavalle 397 4to Piso. Tel. (5411) 5272 0540. C1047",
     "line2": "Buenos Aires - Argentina",
-    "line3": "COPYRIGHT 2005 - 2025 - WWW.HFC-AYCABOGADOS.COM.AR"
+    "line3": "COPYRIGHT 2005 - 2025 - WWW.HFCABOGADOS.AR"
   }
 }

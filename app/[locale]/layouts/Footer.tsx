@@ -32,7 +32,7 @@ const Footer: React.FC = async () => {
         }}
       >
         <div className="container mx-auto px-4 py-1 flex flex-col sm:flex-row justify-center items-center text-xs text-white font-semibold">
-          <p>COPYRIGHT 2005 - {currentYear} - WWW.HFC-AYCABOGADOS.COM.AR</p>
+          <p>COPYRIGHT 2005 - {currentYear} - WWW.HFCABOGADOS.AR</p>
           {/* Puedes añadir más información o enlaces aquí si es necesario */}
         </div>
       </div>

@@ -76,7 +76,7 @@
   },
   "CorrespondentsPage": {
     "title": "Correspondents",
-    "description": "We have developed the necessary structure to provide our services throughout the territory of the Argentine Republic. To this end, we designed a joint working system with a wide network of correspondents across the country, in which our firm performs management control while maintaining technical responsibility and strategic alliances and cooperation agreements. Among others, our network includes: Estudio Gómez Sanchís y Asociados (Province of Mendoza), Estudio Formaro, Huarte, González, Fazzolari & Martín (Provinces of Neuquén and Río Negro), Estudio Garrote (Provinces of Santa Fe and Entre Ríos), Estudio Sánchez Ejarque Abogados (Provinces of San Juan and San Luis), Estudio Courel & Asociados (Province of Tucumán), Estudio Ferreyra de las Casas Abogados (Provinces of Chubut, Santa Cruz and Tierra del Fuego). Additionally, Amato & Castro | Abogados is associated with the Italian firm Spaggiari, Molina, Zublena & Partners, present in Modena, Rome and Messina, and is our link in China through the prestigious Konosko Investment Consulting & Services Co. Ltd. based in Shanghai. This alliance allows us to offer top-level services to our national and international clients, adequately supporting the development of expansion projects into the Chinese market."
+    "description": "We have developed the necessary structure to provide our services throughout the territory of the Argentine Republic. To this end, we designed a joint working system with a wide network of correspondents across the country, in which our firm performs management control while maintaining technical responsibility and strategic alliances and cooperation agreements. Among others, our network includes: Estudio Gómez Sanchís y Asociados (Province of Mendoza), Estudio Formaro, Huarte, González, Fazzolari & Martín (Provinces of Neuquén and Río Negro), Estudio Garrote (Provinces of Santa Fe and Entre Ríos), Estudio Sánchez Ejarque Abogados (Provinces of San Juan and San Luis), Estudio Courel & Asociados (Province of Tucumán), Estudio Ferreyra de las Casas Abogados (Provinces of Chubut, Santa Cruz and Tierra del Fuego). Additionally, HFC Abogados is associated with the Italian firm Spaggiari, Molina, Zublena & Partners, present in Modena, Rome and Messina, and is our link in China through the prestigious Konosko Investment Consulting & Services Co. Ltd. based in Shanghai. This alliance allows us to offer top-level services to our national and international clients, adequately supporting the development of expansion projects into the Chinese market."
   },
   "ClientsPage": {
     "title": "Clients"
@@ -86,26 +86,26 @@
     "temaMemberList": {
       "hernan": {
         "name": "Hernán Facundo Castro",
-        "email": "hernan.castro@ayc-abogados.com.ar",
+        "email": "hernan.castro@hfcabogados.ar",
         "position": "Partner",
         "description": "Lawyer graduated from the University of Morón (1999). Postgraduate in Corporate Legal Advice at the Argentina University of Enterprise (2001). Postgraduate in General Business Development at the Pontifical Catholic University of Argentina (2004). His practice is focused on advising companies, particularly on corporate matters, intellectual property and real estate. He has participated in delivering training seminars at various companies and institutions focused on Commercial Law, Consumer Protection and Trademarks and Patents. Authorized to practice in the jurisdictions of the Province of Buenos Aires and the Autonomous City of Buenos Aires."
       },
       "pedro": {
         "name": "Pedro Fransisco Pistran",
         "email": "info@hfcabogados.ar",
-        "position": "Partner",
+        "position": "Associated",
         "description": "We design strategies to protect our clients' assets, defending their interests in insolvency situations."
       },
       "ramiro": {
         "name": "Ramiro Galarza",
         "email": "info@hfcabogados.ar",
-        "position": "Partner",
+        "position": "Associated",
         "description": "We have extensive experience in structuring and planning debt restructuring systems, advising our clients on sustainable scenarios over time."
       },
       "josefina": {
         "name": "Josefina Mattera",
         "email": "info@hfcabogados.ar",
-        "position": "Partner",
+        "position": "Associated",
         "description": "We have extensive experience in structuring and planning debt restructuring systems, advising our clients on sustainable scenarios over time."
       }
     }
@@ -127,6 +127,6 @@
   "FooterComponet": {
     "line1": "Lavalle 397 4to Piso. Tel. (5411) 5272 0540. C1047",
     "line2": "Buenos Aires - Argentina",
-    "line3": "COPYRIGHT 2005 - 2025 - WWW.HFC-AYCABOGADOS.COM.AR"
+    "line3": "COPYRIGHT 2005 - 2025 - WWW.HFCABOGADOS.AR"
   }
 }
