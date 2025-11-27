@@ -60,7 +60,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           port: 21
           local-file-path: "./"
-          server-dir: /public_html/
+          server-dir: /public_html/hfcabogados/
           timeout: 600000 # 10 minutos timeout
           log-level: verbose
           dangerous-clean-slate: false
