@@ -58,8 +58,9 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
+          port: 21
           local-file-path: "./"
-          server-dir: /public_html/
+          server-dir: /public_html
 
   deploy-development:
     needs: build
