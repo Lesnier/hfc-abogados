@@ -2,7 +2,7 @@ name: Deploy Next.js to cPanel
 
 on:
   push:
-    branches: [master]
+    branches: [master, develop]
 
   workflow_dispatch:
     inputs:
