@@ -2,61 +2,82 @@ name: Deploy Next.js to cPanel
 
 on:
   push:
-    branches: [ master ]
-  
+    branches: [master]
+
   workflow_dispatch:
     inputs:
       environment:
-        description: 'Environment to deploy'
+        description: "Environment to deploy"
         required: true
-        default: 'prod'
+        default: "prod"
         type: choice
         options:
           - prod
-          
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    
-    steps:
-    - uses: actions/checkout@v3
-    
-    - name: Setup Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '20'
-        cache: 'npm'
-    
-    - name: Install dependencies
-      run: npm install
-    
-    - name: Build project
-      run: npm run build
 
-    - name: Subir artefacto de producción
-      uses: actions/upload-artifact@v4
-      with:
-        name: nextjs-static-site # Un nombre para tu artefacto
-        path: out/               # La carpeta que quieres guardar
-        retention-days: 1 
-      
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build project
+        run: npm run build
+
+      - name: Subir artefacto de producción
+        uses: actions/upload-artifact@v4
+        with:
+          name: nextjs-static-site # Un nombre para tu artefacto
+          path: out/ # La carpeta que quieres guardar
+          retention-days: 1
+
   deploy-production:
     needs: build
     runs-on: ubuntu-latest
     environment: production
     if: github.ref == 'refs/heads/master'
     steps:
-    - name: Descargar artefacto del sitio estático
-      uses: actions/download-artifact@v4
-      with:
-        name: nextjs-static-site # Usa el mismo nombre del artefacto subido
-        path: ./
-        
-    - name: Deploy to cPanel via FTP
-      uses: SamKirkland/FTP-Deploy-Action@4.3.0
-      with:
-        server: ${{ secrets.FTP_SERVER }}
-        username: ${{ secrets.FTP_USERNAME }}
-        password: ${{ secrets.FTP_PASSWORD }}
-        local-file-path: "./" 
-        server-dir: /
+      - name: Descargar artefacto del sitio estático
+        uses: actions/download-artifact@v4
+        with:
+          name: nextjs-static-site # Usa el mismo nombre del artefacto subido
+          path: ./
+
+      - name: Deploy to cPanel via FTP
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-file-path: "./"
+          server-dir: /public_html/
+
+  deploy-development:
+    needs: build
+    runs-on: ubuntu-latest
+    environment: development
+    if: github.ref == 'refs/heads/develop'
+    steps:
+      - name: Descargar artefacto del sitio estático
+        uses: actions/download-artifact@v4
+        with:
+          name: nextjs-static-site # Usa el mismo nombre del artefacto subido
+          path: ./
+
+      - name: Deploy to cPanel via FTP
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-file-path: "./"
+          server-dir: /
