@@ -18,10 +18,14 @@ const Footer: React.FC = async () => {
           </div>
 
           {/* Otros Enlaces o Información (si la hubiera) */}
-          {/* <div className="flex justify-center space-x-6 text-sm text-gray-600">
-            <Link href="/politica-de-privacidad" className="hover:text-yellow-500">Política de Privacidad</Link>
-            <Link href="/aviso-legal" className="hover:text-yellow-500">Aviso Legal</Link>
-          </div> */}
+          <div className="flex justify-center space-x-6 text-sm text-gray-600">
+            <Link href="/en/privacy-policy" className="hover:text-yellow-500">
+              Política de Privacidad
+            </Link>
+            {/* <Link href="/aviso-legal" className="hover:text-yellow-500">
+              Aviso Legal
+            </Link> */}
+          </div>
         </div>
       </div>
 
