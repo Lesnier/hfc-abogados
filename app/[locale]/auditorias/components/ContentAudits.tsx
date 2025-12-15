@@ -1,8 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { use, useState, useTransition } from "react";
+import { ReactNode, use, useState, useTransition } from "react";
 import { useTranslations } from "next-intl";
+
 
 type SidebarLink = {
   name: string;
@@ -16,10 +17,24 @@ type MainContentProp = {
   content?: string;
 };
 
+
+const StandardButton = ({children}: {children: ReactNode}) => (
+  <button
+    type="button"
+    className={`px-4 py-1 text-md  h-10 font-bold t text-white 
+     border-gray-300 text-gray-700 hover:bg-[#39566d] bg-[#304658] cursor-pointer 
+    `}
+    onClick={() => window.open("https://legalauditex.ar/", "_blank")}
+  >
+    {children}
+  </button>
+);
+
+
 const MainContent = ({ title, content }: MainContentProp) => (
   <div className="prose max-w-none">
     <h2 className="text-2xl font-bold mb-4">{title}</h2>
-    <p>{content}</p>
+   <StandardButton >{content}</StandardButton>
   </div>
 );
 
@@ -30,7 +45,7 @@ export default function ContentAreasPracticas() {
       id: "derecho-laboral",
       name: t("title"),
       href: "/derecho-laboral",
-      content: t("accesButton"),
+      content: t("accessTheSystem"),
     },
   ];
 

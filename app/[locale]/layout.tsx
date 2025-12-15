@@ -33,6 +33,9 @@ export async function generateMetadata({
     creator: t("author"),
     publisher: t("author"),
     applicationName: t("siteName"),
+    icons: {
+      icon: "/favicon.ico",
+    },
 
     // Open Graph
     openGraph: {
