@@ -51,10 +51,11 @@ const MainContent = ({
           <span
             style={{ marginLeft: "5px", marginRight: "5px", color: "#5A809E" }}
           >
-            |
+            <span className="hidden md:inline-block" style={{ color: "#5A809E" }}>|</span>
           </span>
           <span
             id="member-tag"
+            className="block md:inline-block w-fit"
             style={{
               fontSize: "14px",
               color: "#1C2C39",
@@ -65,6 +66,7 @@ const MainContent = ({
               background: "#FFE8AA",
             }}
           >
+            
             {position}
           </span>
         </div>
